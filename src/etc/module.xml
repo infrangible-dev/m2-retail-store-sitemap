@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!--
+ * @author      Andreas Knollmann
+ * @copyright   Copyright (c) 2014-2025 Softwareentwicklung Andreas Knollmann
+ * @license     http://www.opensource.org/licenses/mit-license.php MIT
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Infrangible_RetailStoreSitemap" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Catalog"/>
+            <module name="Magento_Cms"/>
+            <module name="Magento_Sitemap"/>
+            <module name="Infrangible_RetailStore"/>
+            <module name="Infrangible_Sitemap"/>
+        </sequence>
+    </module>
+</config>
